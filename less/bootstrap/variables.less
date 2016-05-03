@@ -11,7 +11,7 @@
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
 @gray-dark:              #212121;
 @gray:                   #666;
-@gray-light:             #bbb;
+@gray-light:             #aaa;
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
 @brand-primary:         #91ba97;
@@ -144,7 +144,7 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #444;
+@btn-default-color:              @gray-light;
 @btn-default-bg:                 #fff;
 @btn-default-border:             transparent;
 
@@ -324,7 +324,7 @@
 //** Number of columns in the grid.
 @grid-columns:              12;
 //** Padding between columns. Gets divided in half for the left and right.
-@grid-gutter-width:         0;
+@grid-gutter-width:         15px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 @grid-float-breakpoint:     @screen-sm-min;
@@ -369,7 +369,7 @@
 @navbar-default-border:            transparent;
 
 // Navbar links
-@navbar-default-link-color:                @gray;
+@navbar-default-link-color:                @gray-light;
 @navbar-default-link-hover-color:          @gray-dark;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         @gray-dark;
@@ -760,7 +760,7 @@
 //
 //##
 
-@well-bg:                     #f9f9f9;
+@well-bg:                     transparent;
 @well-border:                 transparent;
 
 
@@ -821,7 +821,7 @@
 //##
 
 @close-font-weight:           normal;
-@close-color:                 #000;
+@close-color:                 @gray-light;
 @close-text-shadow:           none;
 
 
